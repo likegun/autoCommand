@@ -1,9 +1,15 @@
+## 需要
+
+* node 10.*.* 较低版本没有测试过，可能存在兼容问题
+
+---
+
 ## 使用
 
-* git clone 
+* git clone https://github.com/likegun/autoCommand
 * cd autocommand
 * npm i
-* 根据demos.js里的规则编写demo
+* 根据demos.js里的规则编写demos.js
 * node share.js
 
 ---
