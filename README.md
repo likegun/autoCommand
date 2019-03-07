@@ -7,7 +7,7 @@
 ## 使用
 
 * git clone https://github.com/likegun/autoCommand
-* cd autocommand
+* cd autoCommand
 * npm i
 * 根据demos.js里的规则编写demos.js
 * node share.js
