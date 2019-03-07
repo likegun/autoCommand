@@ -1,0 +1,31 @@
+{
+    "env": {
+        "browser": true,
+        "node": true,
+        "es6": true
+    },
+    "parserOptions": {
+        "sourceType": "module",
+        "ecmaVersion": 8
+    },
+    "extends": "eslint:recommended",
+    "plugins": [
+    ],
+    "globals":{
+        "logInfo": true,
+        "logError": true
+    },
+    "rules": {
+        "no-empty": ["error", { "allowEmptyCatch": true }],
+        "no-constant-condition": "off",
+        "no-console": "off",
+        "quotes": [
+            "error",
+            "single"
+        ],
+        "semi": [
+            "error",
+            "always"
+        ]
+    }
+}
